@@ -1,0 +1,27 @@
+.body {
+  background-color: rgb(241, 243, 252);
+}
+.logout-btn1 {
+  background-color: #ff3500;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid transparent;
+  color: #fff;
+  padding: 7px 17px;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 10px;
+}
+
+.logout-btn1:hover {
+  color: #ff3500;
+  background: #fff;
+  transition: 0.25s color;
+}
+
+.logout-btn1:focus {
+  outline: none;
+}

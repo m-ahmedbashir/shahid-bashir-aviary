@@ -1,0 +1,39 @@
+/* ====================== */
+/* Navigation Header */
+/* ====================== */
+/* .nav-container {
+  padding: 1.2rem 10rem !important;
+}
+Nav > .nav-link {
+  padding-left: 30px;
+} */
+
+* {
+  /* font-family: , sans-serif; */
+  font-family: "Poppins", "Open Sans", sans-serif;
+}
+.nav-link-container .nav-link {
+  color: black;
+}
+
+.nav-container .nav-logo {
+  color: black;
+}
+
+#responsive-navbar-nav .nav-link-container .nav-link:hover {
+  color: #eb592d;
+}
+#responsive-navbar-nav .nav-link-container .nav-link:focus {
+  color: #eb592d !important;
+}
+#responsive-navbar-nav .nav-link-container .nav-link::after {
+  color: #eb592d !important;
+}
+.active {
+  color: #eb592d !important;
+}
+
+.nav-container .navbar-color .nav-color {
+  color: #eb592d;
+  size: 10rem;
+}

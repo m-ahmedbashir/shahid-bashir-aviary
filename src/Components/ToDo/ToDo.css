@@ -1,0 +1,37 @@
+.todo-btn1 {
+  background-color: #ff3500;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid transparent;
+  color: #fff;
+  padding: 7px 17px;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 10px;
+}
+
+.todo-btn1:hover {
+  color: #ff3500;
+  background: #fff;
+  transition: 0.25s color;
+}
+
+.todo-btn1:focus {
+  outline: none;
+}
+
+.todo-btn2:checked {
+  background: #ff3500;
+  color: white;
+  border: 1px solid #ff3500;
+}
+/* 
+.todo-btn3 {
+  background: #ff3500 !important;
+  color: white !important;
+  border: 1px solid #ff3500;
+  cursor: pointer;
+} */
